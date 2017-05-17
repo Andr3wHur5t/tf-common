@@ -1,6 +1,6 @@
 # Common Terraform Modules
 
-# Quick Start
+## Quick Start
 
 Clone this repo inside of your infrastructure repo.
 
@@ -15,7 +15,7 @@ module "example_ecr_setup_any_name_will_do" {
 
 ```
 
-# Modules:
+## Modules:
 
 - `ci_ecr` A AWS elastic container registry (Docker repo) with CI/CD User with a minimal policy that allows publishing an image.
 - `ci_user` A simple user tagged to make it easy to audit external access to resources.
