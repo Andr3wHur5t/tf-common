@@ -1,0 +1,15 @@
+
+## Terraform Artifacts
+.terraform
+*.tfstate
+*.backup
+
+## Vim Artifacts
+*.swo
+*.swp
+
+## Misc
+.DS_Store
+.env
+*.log
+
