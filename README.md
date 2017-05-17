@@ -6,13 +6,12 @@ Clone this repo inside of your infrastructure repo.
 
 Use your desired module
 
-```
+```HCL
 module "example_ecr_setup_any_name_will_do" {
   source = "./modules/ci_ecr" # Path to cloned repo and desired module
 
   name = "my-fancy-ci-ecr-setup"
 }
-
 ```
 
 ## Modules:
